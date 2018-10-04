@@ -1,11 +1,16 @@
-def countdown(n: Int) ={
-  var counter = n
-  while( n<20){
-    println()
-    counter -= 1
+//using a for loop
+def countdown1 (num: Int) = {
+  for (i <- num to 0 by -1){
+    println(i)
   }
 }
 
-countdown(4)
+countdown1(20)
 
-//def countDown(n: Int): Unit= if(n == 0) println(0) else if(n>0) {println(n);countDown(n-1)}
+// Using recursion
+def countdown2(x: Int): Unit = if (x > 0) {
+  println(x)
+  countdown2(x - 1)
+}
+
+countdown2(20)
