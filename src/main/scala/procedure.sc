@@ -1,3 +1,5 @@
+//Write a procedure countdown(n: Int) that prints the numbers from n to 0.
+
 //using a for loop
 def countdown1 (num: Int) = {
   for (i <- num to 0 by -1){
