@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="956a9fbc-fc1d-4b0b-8af9-00440eda5962" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/procedure.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/procedure.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/unicode.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/unicode.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/recursive.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,22 +30,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="sc" value="4" />
+          <entry key="sc" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Scala" value="4" />
+          <entry key="Scala" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="sc" value="848" />
+          <entry key="sc" value="934" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="848" />
+          <entry key="Scala" value="934" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -71,11 +71,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/procedure.sc">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/recursive.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -108,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/forloop.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/unicode.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/procedure.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/recursive.sc" />
       </list>
     </option>
   </component>
@@ -159,7 +169,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538642296107" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538643189606" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -233,12 +243,12 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980484" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.3284553" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32626426" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -288,6 +298,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/recursive.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
