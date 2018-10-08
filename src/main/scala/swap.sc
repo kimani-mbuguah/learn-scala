@@ -54,3 +54,5 @@ for(i <- 0 until (if(a.length % 2 == 0) a.length else a.length - 1) if(i % 2 == 
   a(i-1) = temp
 }
 a
+
+val tz = java.util.TimeZone.getAvailableIDs().filter(_.startsWith("America/")).map( (s) => s.stripPrefix("America/"))
